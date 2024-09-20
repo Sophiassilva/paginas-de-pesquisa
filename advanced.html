@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pesquisa Avançada</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+            <p class="walk"><a href="index.html">Pesquisa Google</a></p>
+            <br>
+            <div>
+                <p id="adv">Pesquisa Avançada</p>
+                <div id="linha"></div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Localizar páginas com...</th>
+                            <th></th>
+                            <th><span>Faça isso na caixa de pesquisa:</span></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <form action="https://www.google.com/search">
+                            <tr>
+                                <td>todas estas palavras:</td>
+                                <td><input class="entradas" type="text" name="as_q"></td>
+                                <td><span>Coloque as palavras separadas: senhor dos anéis o hobbit</span></td>
+                            </tr>
+                            <tr>
+                                <td>esta expressão ou frase exata:</td>
+                                <td><input class="entradas" type="text" name="as_epq"></td>
+                                <td><span>Coloque entre aspas: "campeonato brasileiro de 2024"</span></td>
+                            </tr>
+                            <tr>
+                                <td>qualquer uma destas palavras:</td>
+                                <td><input class="entradas" type="text" name="as_oq"></td>
+                                <td><span>Digite OR entre as palavras: "namjoon OR rm"</span></td>
+                            </tr>
+                            <tr></tr>
+                                <td>nenhuma destas palavras:</td>
+                                <td><input class="entradas" type="text" name="as_eq"></td>
+                                <td><span>Coloque um sinal de menos antes das palavras que você não quer: -comprar, -"Oferta"</span></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td style="padding-left: 357px;"><input id="advsearch" type="submit" value="Pesquisa Avançada"></td>
+                            </tr>
+                        </form>
+                    </tbody>
+                </table>
+            </div>
+    </body>
+</html>
