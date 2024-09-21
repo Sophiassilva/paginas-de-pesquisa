@@ -21,4 +21,4 @@ Encontrar páginas com...
 - "Nenhuma destas palavras".
 
 ### Aviso
-Esse projeto foi desenvovlvido durante o curso [CS50's Web Programming with Python e Javascript](https://learning.edx.org/course/course-v1:HarvardX+CS50W+Web/home), por favor não copie.
+Esse projeto foi desenvovlvido durante o curso [CS50's Web Programming with Python e Javascript](https://learning.edx.org/course/course-v1:HarvardX+CS50W+Web/home).
